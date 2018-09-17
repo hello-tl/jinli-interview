@@ -1,9 +1,7 @@
 <pre>
 # =============================================================================
 # 登录 username : tianlong   password : 123456
-# git 项目地址 http://gitlab.hello-tl.com:1111/my-long.tian/jinli-interview.hello-tl.com/
-# git username : jinli-interview   password : Tl199802022610
-# git 下载地址 http://119.29.119.247:1111/my-long.tian/jinli-interview.hello-tl.com.git
+# 登录页面 http://interview.hello-tl.com/?c=account&a=login
 # =============================================================================
 /**
  * Created by PhpStorm.
