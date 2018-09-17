@@ -138,7 +138,7 @@
 
         $("#login").click(function(){
             $.ajax({
-                url     : window.location.protocol + "://" + window.location.host + "?c=account&a=loginValid",
+                url     : window.location.protocol + "//" + window.location.host + "?c=account&a=loginValid",
                 type    : 'POST',
                 dataType: 'json',
                 data    : {
@@ -153,7 +153,7 @@
                 success:function(res){
                     // 请求成功
                     if("登录成功" == res.msg){
-                        window.location.href = window.location.protocol + "://" + window.location.host + "?c=account&a=show";
+                        window.location.href = window.location.protocol + "//" + window.location.host + "?c=account&a=show";
                     }
                 },
                 error:function(xhr,errorText,errorType){
@@ -167,7 +167,7 @@
         // 先去获取 secretKey secretValue
         $.ajax({
             type    : 'get',
-            url     : window.location.protocol + "://" + window.location.host + "?c=account&a=getLoginSecret",
+            url     : window.location.protocol + "//" + window.location.host + "?c=account&a=getLoginSecret",
             async   : true,
             cache   : true,
             dataType: 'json',
