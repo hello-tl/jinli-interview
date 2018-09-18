@@ -30,38 +30,40 @@
  * 不知一下代码是否能得到大佬的赏识
  */
 </pre>
+
+
 <pre>
-# =============================================================================
-# 简陋框架目录
-# application--------项目目录
-#   _config-----------------配置文件目录
-#       basepage.php-------------------基础配置
-#       constants.php------------------尝用的常量
-#       database.php-------------------数据库配置
-#       errorpage.php------------------错误配置
-#   _helpers----------------助手函数目录
-#       common_helpers.php-------------基本函数封装
-#       openssl_helpers.php------------openssl加解密
-#       utils_helper.php---------------系统类封装
-#   _logs-------------------日志文件目录
-#       _nginx-------------------------nginx日志文件
-#           host.access.log-------------------------日志文件
-#           interview.hello-tl.com.conf-------------nginx配置文件
-#       _nginx-------------------------php配置文件
-#   _pem--------------------钥匙文件目录
-#       login_rsa_private_key.pem------私钥
-#       login_rsa_public_key.pem-------公钥
-#   _webroot----------------入口文件目录
-#       index.php----------------------入口文件
-#   controllers-------------控制器目录
-#   models------------------模型目录
-#   views-------------------视图目录
-# components---------composer下载依赖包js
-# system-------------系统目录
-#   interview---------------框架启动文件
-#   Request.php-------------Request类
-# vendor-------------composer下载依赖包php-js
-# composer.json------composer json文件
-# composer.lock------composer lock文件
-# =============================================================================
+=============================================================================
+简陋框架目录
+application--------项目目录
+   _config-----------------配置文件目录
+       basepage.php-------------------基础配置
+       constants.php------------------尝用的常量
+       database.php-------------------数据库配置
+       errorpage.php------------------错误配置
+   _helpers----------------助手函数目录
+       common_helpers.php-------------基本函数封装
+       openssl_helpers.php------------openssl加解密
+       utils_helper.php---------------系统类封装
+   _logs-------------------日志文件目录
+       _nginx-------------------------nginx日志文件
+           host.access.log-------------------------日志文件
+           interview.hello-tl.com.conf-------------nginx配置文件
+       _nginx-------------------------php配置文件
+   _pem--------------------钥匙文件目录
+       login_rsa_private_key.pem------私钥
+       login_rsa_public_key.pem-------公钥
+   _webroot----------------入口文件目录
+       index.php----------------------入口文件
+   controllers-------------控制器目录
+   models------------------模型目录
+   views-------------------视图目录
+components---------composer下载依赖包js
+system-------------系统目录
+   interview---------------框架启动文件
+   Request.php-------------Request类
+vendor-------------composer下载依赖包php-js
+composer.json------composer json文件
+composer.lock------composer lock文件
+=============================================================================
 </pre>
