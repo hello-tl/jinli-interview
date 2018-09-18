@@ -87,7 +87,7 @@ class account{
         }
 
         # 密码表达式
-        if(!isPasswordValid($loginExt)){
+        if(isPasswordValid($loginExt)){
             showSuccess('','013','013',USER_PASSWORD_ERROR_013);
             return;
         }

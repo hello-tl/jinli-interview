@@ -242,7 +242,7 @@ function isPasswordValid($password) {
     if (empty($password)) {
         return false;
     }
-    return false;
+    return preg_match("^(?:(?=.*[0-9].*)(?=.*[A-Za-z].*)(?=.*[,\.#%'\+\*\-:;^_`].*))[,\.#%'\+\*\-:;^_`0-9A-Za-z]{8,10}$", $password);
 }
 # ========================================
 # 校验密码是否合法结束
