@@ -116,7 +116,7 @@
                 <div class="panel-body">
                     <div class="mar-ver pad-btm">
                         <h1 class="h3">帐号登录</h1>
-                        <p>登录到您的帐户</p>
+                        <p style="color: red;">登录到您的帐户</p>
                     </div>
                         <input name="secretKey" id="secretKey" value="" class="form-control" autocomplete="off" type="hidden">
                         <input name="secretValue" id="secretValue" value="" class="form-control" autocomplete="off" type="hidden">
@@ -154,6 +154,8 @@
                     // 请求成功
                     if("登录成功" == res.msg){
                         window.location.href = window.location.protocol + "//" + window.location.host + "?c=account&a=show";
+                    }else{
+                        document.getElementsByTagName("p")[0].innerHTML = res.msg;
                     }
                 },
                 error:function(xhr,errorText,errorType){
