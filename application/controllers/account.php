@@ -93,7 +93,7 @@ class account{
         }
 
         # 判断密码是否正确
-        if($loginExt != "123456"){
+        if($loginExt != "Tl-123456"){
             showSuccess('','008','008',USER_USERNAME_ERROR_008);
             return;
         }
