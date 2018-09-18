@@ -12,5 +12,5 @@ composer.phar
 
 
 # composer itself is not needed
-/vendor
+/components
 

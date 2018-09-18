@@ -124,7 +124,7 @@
                             <input name="loginKey" id="loginKey" value="tianlong" class="form-control" placeholder="请输入用户名" autocomplete="off" type="text">
                         </div>
                         <div class="form-group">
-                            <input name="loginExt" id="loginExt" value="123456" class="form-control" placeholder="请输入密码" autocomplete="off" type="password">
+                            <input name="loginExt" id="loginExt" value="Tl-123456" class="form-control" placeholder="请输入密码" autocomplete="off" type="password">
                         </div>
                         <button id="login" class="btn btn-primary btn-lg btn-block">登录</button>
                 </div>
